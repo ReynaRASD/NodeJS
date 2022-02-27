@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+ 
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    line-height: 4s0px;
+    
+}
+
+#titulo{
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-size: 50px;
+line-height: 70px;
+font-weight: 600; 
+color: white;
+background-image: linear-gradient( to left, DarkViolet, rgb(255, 0, 85), rgb(238, 255, 0), DeepPink, DarkViolet);
+background-size: 110vw;
+animation: sliding 45s ease-in-out infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+}
+
+.login {
+  margin: 0 30% 0 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color:white;
+}
+
+main {
+  min-height: 70vh;
+}
+
+#unete{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+
+
+
+main .mb-3{
+  
+    font-size: 20px;
+    margin-top: 30px;
+} 
+
+main .mb-3 #exampleInputEmail1{
+ 
+  border: 1px solid rgba(255, 255, 255, 0.91);
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 0 auto;
+  background: #3a3636;
+  font-weight: 600;
+}
+
+main .mb-3 #exampleInputPassword1{
+  background: #3a3636;
+  border: 1px solid rgba(255, 255, 255, 0.91);
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.btn{
+height: 50px;
+width: 180px;
+
+background: linear-gradient(270.82deg, rgba(14, 231, 6, 0.84) 46.03%, rgba(175, 15, 159, 0.1092) 95.57%);
+border: 0.5px solid #61B0DC;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 800px;
+color: #FFFFFF; 
+
+text-align: center;
+margin: 0 auto;
+min-width: 100%;
+}
+
+.unete{
+    text-align: center;
+    font-size: 0.70cm;
+} 
+
+/*Estilos de validacion */
+
+
+
+.formulario__validacion-estado{
+  position: absolute; 
+
+  opacity: 0;
+ /* color: red; */
+} 
+ 
+.formulario__label{ 
+  cursor: pointer;
+} 
+
+.formulario__grupo-input{
+  position: relative; 
+}
+
+.formulario__input-error{
+  font-size: 12px; 
+  margin-bottom: 0; 
+  display: none;
+}  
+
+.formulario__input-error{
+  color: red;
+} 
+
+.formulario__input-error-activo{
+  display: block;
+}  
+
+
+.formulario__validacion-estado{
+  position:absolute;
+  right: 10px;
+  bottom: 15px; 
+  z-index: 100; 
+  font-size: 16px; 
+  opacity: 0;
+}  
+
+
+/* .formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar{
+  grid-column: span 2;
+} 
+
+ 
+
+.formulario__mensaje p {
+  margin: 0;
+  
+}   */
+.formulario__mensaje{
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  height: 45px;
+  margin-bottom: 15px;
+  line-height: 45px;
+  background: #bb2929;
+  border-radius: 5px;
+  display: none;
+}  
+
+.formulario__mensaje-exito{
+  font-size: 14px;
+  color: #4FFE01;
+  display: none;
+}
+
+.formulario__mensaje-exito-activo{
+  display: block;
+}
+
+.formulario__mensaje-activo{
+  display: block;
+}
+
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+color: green; 
+opacity: 1; 
+} 
+
+
+.formulario__grupo-correcto .formulario__input{
+  color: 3px solid green; 
+  
+}
+
+
+.formulario__grupo-incorrecto .formulario__input{
+  color:  red; 
+  
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+color: red; 
+opacity: 1;
+} 
+
+.formulario__grupo-incorrecto .formulario__input{
+border: 3px solid red
+}  
+
+
+@media only screen and (max-width: 750px){
+  .login{
+margin: 0 15% 0 15%;
+}
+}
+
