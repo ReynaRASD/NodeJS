@@ -1,0 +1,27 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba reyna",
+  "main": "app.js",
+  "scripts": {
+    "test": "node",
+    "auditar": "npm audit && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReynaRASD/prueba-node.git"
+  },
+  "author": "RASD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReynaRASD/prueba-node/issues"
+  },
+  "homepage": "https://github.com/ReynaRASD/prueba-node#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "css": "^3.0.0",
+    "express-generator": "^4.16.1",
+    "moment": "^2.29.1",
+    "util": "^0.12.4"
+  }
+}
