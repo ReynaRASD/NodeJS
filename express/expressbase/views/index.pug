@@ -1,8 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  
+  h1  Welcome to Express
 
   p
     a(href="https://www.google.com/") ENLACE 
+
+
+  h2 JSON
+    if datos 
+      h3 libro  
+      p #{datos.titulo}
+
+      h3 autor
+      p #{datos.autor}
